@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'cli',
     'example',
+    'execution'
 ]
 
 MIDDLEWARE = [
