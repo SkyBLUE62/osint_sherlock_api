@@ -24,7 +24,7 @@ from example.views import index
 router = routers.DefaultRouter()
 
 urlpatterns = [
-    path('', include(router.urls)),
+    # path('', include(router.urls)),
     path('cli/', views.CliView.as_view()),
     path('data/', views.DataView.as_view()),
     path('', include('example.urls')),
