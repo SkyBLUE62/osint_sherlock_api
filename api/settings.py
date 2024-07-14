@@ -25,7 +25,7 @@ SECRET_KEY = '%a#x#-ara^lpz(ljb7_%i!bahh7yyfjtbud*0%%sc0v($8hveh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -54,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'api.urls'
+WSGI_APPLICATION = 'api.wsgi.app'
 
 TEMPLATES = [
     {
