@@ -1,3 +1,4 @@
 djangorestframework>=3.12.2
 django-cors-headers>=3.6.0
 sherlock-project==0.15.0
+sherlock>=0.15.0
