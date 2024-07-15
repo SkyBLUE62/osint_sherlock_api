@@ -44,7 +44,11 @@ INSTALLED_APPS = [
     'corsheaders',
     'cli',
     'example',
-    'execution'
+    'execution',
+    'execution.sherlock.sherlock_project',
+    'execution.sherlock.sherlock',
+    'execution.sherlock',
+
 ]
 
 MIDDLEWARE = [
