@@ -38,7 +38,7 @@ def valid_args(cmd):
 
 def sherlock_dir():
     """Return sherlock project root directory."""
-    return "execution/sherlock"
+    return "./execution/sherlock"
 
 def sherlock_data():
     """Return `data.json` file from sherlock project."""
