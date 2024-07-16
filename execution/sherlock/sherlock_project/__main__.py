@@ -12,7 +12,6 @@ import os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from execution.sherlock.sherlock_project import sherlock
-sys.path.append('/var/task/execution')
 
 if __name__ == "__main__":
     # Check if the user is using the correct version of Python
