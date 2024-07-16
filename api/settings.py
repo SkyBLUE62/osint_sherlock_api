@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'example',
     'execution',
     'execution.sherlock.sherlock_project',
+    'execution.sherlock.sherlock',
     'sherlock',
 ]
 
