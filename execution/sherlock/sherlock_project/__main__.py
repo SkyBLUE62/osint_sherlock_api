@@ -11,9 +11,10 @@ import sys
 import os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from execution.sherlock.sherlock_project import sherlock
 sys.path.append('/var/task/execution')
 sys.path.append('/execution')
+sys.path.append('/execution/sherlock')
+sys.path.append('/execution/sherlock/sherlock_project')
 
 if __name__ == "__main__":
     # Check if the user is using the correct version of Python
@@ -22,5 +23,6 @@ if __name__ == "__main__":
     if sys.version_info < (3, 8):
         print(f"Sherlock requires Python 3.8+\nYou are using Python {python_version}, which is not supported by Sherlock.")
         sys.exit(1)
-
+        
+    from sherlock_project import sherlock
     sherlock.main()
