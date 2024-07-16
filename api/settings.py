@@ -23,6 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '%a#x#-ara^lpz(ljb7_%i!bahh7yyfjtbud*0%%sc0v($8hveh'
 sys.path.insert(0, os.path.join(BASE_DIR, 'execution', 'sherlock'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'execution', 'sherlock', 'sherlock_project'))
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
