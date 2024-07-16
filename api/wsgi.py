@@ -21,7 +21,7 @@ sys.path.append('/execution/sherlock')
 sys.path.append('/execution/sherlock/sherlock_project')
 sys.path.append('/var/task/execution')
 sys.path.append('/var/task/execution/sherlock/sherlock_project')
-sys.path.append('/var/task/execution/sherlock')
+sys.path.append('/var/task/execution/sherlock_dev')
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
 
