@@ -45,8 +45,6 @@ INSTALLED_APPS = [
     'cli',
     'example',
     'execution',
-    'execution.sherlock.sherlock_project',
-    'execution.sherlock.sherlock_dev',
     'sherlock_dev',
     'sherlock_project'
 ]
