@@ -14,9 +14,12 @@ from django.core.wsgi import get_wsgi_application
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append('/var/task/execution')
-sys.path.append('./execution')
-sys.path.append('./execution/sherlock')
-sys.path.append('./execution/sherlock/sherlock_project')
+sys.path.append('/execution')
+sys.path.append('/execution/sherlock')
+sys.path.append('/execution/sherlock/sherlock_project')
+sys.path.append('/var/task/execution')
+sys.path.append('/var/task/execution/sherlock/sherlock_project')
+sys.path.append('/var/task/execution/sherlock')
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
 
