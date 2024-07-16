@@ -13,6 +13,8 @@ import sys
 from django.core.wsgi import get_wsgi_application
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'execution'))
+
 sys.path.append('/var/task/execution')
 sys.path.append('/execution')
 sys.path.append('/execution/sherlock')
